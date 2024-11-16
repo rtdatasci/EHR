@@ -37,3 +37,33 @@ pip install -r requirements.txt
 
 3. Run the main script
 python main.py
+
+
+
+Organization:
+EHR/
+│
+├── data/                 # Folder for storing datasets
+│   ├── raw/              # Raw datasets
+│   ├── processed/        # Preprocessed datasets
+│
+├── notebooks/            # Jupyter notebooks for EDA and modeling
+│
+├── src/                  # Source code for the project
+│   ├── __init__.py       # Initialize Python package
+│   ├── preprocessing.py  # Data cleaning and preprocessing scripts
+│   ├── train_model.py    # Scripts for training models
+│   ├── evaluate.py       # Scripts for evaluating models
+│
+├── tests/                # Test scripts for validating the code
+│   ├── test_preprocessing.py
+│   ├── test_train_model.py
+│
+├── reports/              # Generated reports
+│   ├── figures/          # Visualizations
+│
+├── README.md             # Project documentation
+├── requirements.txt      # List of dependencies
+├── .gitignore            # Ignore unnecessary files
+├── LICENSE               # Licensing information
+└── main.py               # Main script to run the project
