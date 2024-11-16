@@ -40,6 +40,19 @@ python main.py
 
 
 
+Features or Diagnostic measures from the dataset:
+Diagnostic Measures (Features):
+Age: The age of the patient (normalized).
+Sex: Gender of the patient (encoded as a normalized numerical value).
+BMI: Body Mass Index, a measure of body fat based on height and weight (normalized).
+BP: Average blood pressure (normalized).
+S1: Total serum cholesterol.
+S2: Low-density lipoproteins (LDL).
+S3: High-density lipoproteins (HDL).
+S4: Total triglycerides.
+S5: Lamotrigine levels in serum.
+S6: Blood sugar levels.
+
 Organization:
 EHR/
 │
